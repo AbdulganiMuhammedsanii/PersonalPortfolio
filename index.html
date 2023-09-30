@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset ="UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/cd176eedca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class ="container">
+        <nav>
+            <h1>Abdulgani</h1>
+            <ul>
+                <li><a href ='#'>Home</a></li>
+                <li><a href ='#'>About</a></li>
+                <li><a href ='#'>Portfolio</a></li>
+                <li><a href ='#'>Contact</a></li>
+
+
+            </ul>
+        </nav>
+        <div class = "header-text">
+            <h2><span>CS Student/Backend Developer</span><h2>
+            <h1>Hi, I'm <span>abdulgani muhammedsani</span>, a<br> computer science student at <span>cornell university</span><br></h1>
+
+        </div>
+
+    </div>
+</div>
+<div id = "about">
+    <div class = "container">
+        <div class = "row">
+            <div class = about-col-2>
+                <h1 class ="sub-title">About Me</h1>
+                <p>I am very passionate about Distributed Systems, Operating Systems, the implementations of data structures, as well as backend development. Experienced tutor, committed to breaking down complex topics. Goal-oriented, aspiring to drive innovation and make a positive impact in the field of software development.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class = "tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class = "tab-links" onclick="opentab('projects')">Experience</p>
+                    <p class ="tab-links" onclick= "opentab('education')">Education</p>
+                </div>
+                <div class ="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Backend Development</span><br>Designing Mobile Application Database</li>
+                        <li><span>Web Development</span><br>Developing Web Applications</li>
+                        <li><span>Embedded Systems Development</span><br>Designing Serial Connections of an Embedded System</li>
+                    </ul>
+                </div>
+                <div class ="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Google Computer Science Summer Institute</span><br>July 2022 - August 2022</li>
+                        <li><span>Cornell Computer Science Course Assistant</span><br>August 2023 - Present</li>
+                        <li><span>Cornell webdev Backend Developer</span><br>September 2023- Present</li>
+                    </ul>
+                </div>
+                <div class ="tab-contents" id="projects">
+                    <ul>
+                        <li><span>Cordle</span><br>Cornell AppDev Hackathon</li>
+                        <li><span>Atari Breakout via an Embedded System</span><br>Embedded Systems Final Project</li>
+                        <li><span>Cat Adoption Simulator</span><br>Google CSSI Final Project</li>
+                    </ul>
+                </div>
+                <div class ="tab-contents" id = "education">
+                    <ul>
+                        <li><span>FA22</span><br>CS1110 Intro to Computing<br> CS2110 Data Structures and Algorithms</li>
+                        <li><span>SP23</span><br>CS3420 Embedded Systems<br> CS1998 Intro to Backend Development<br> MATH2210 Linear Algebra</li>
+                        <li><span>FA23</span><br>CS4410 Operating Systems<br> CS2800 Discrete Structures</li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "about-col-1">
+                <img src ='images/AboutMe.JPG'>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!--------portfolio--------->
+<div id="portfolio">
+    <div class = "container">
+        <h1 class = "sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work1">
+                <img src = "images/Cordle.png">
+                <div class="layer">
+                    <h3>Cornell Wordle Application</h3>
+                    <p>Development of a database that implements several endpoints necessary to make a functional wordle game, with some unique implemented features.</p>
+                    <a href='https://github.com/AbdulganiMuhammedsanii/Cordle'><i class = "fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src = "images/AtariBreakout.png">
+                <div class="layer">
+                    <h3>Atari Breakout via an Embedded System</h3>
+                    <p>Development of an Atari Breakout came with the use of ARM Assembly Board and serial connection to utilize it as a controller.</p>
+                    <a href='https://ataribreakoutembeddedsystems.abdulganimuham1.repl.co/'><i class = "fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src = "images/CatAdoption.png">
+                <div class="layer">
+                    <h3>Cat Adoption Website</h3>
+                    <p>Development of a informative cat website and simulation of pet ownership. Implemention of the cat api.</p>
+                    <a href='https://pet-adoption-sim-v4-2.abdulganimuham1.repl.co/index.html'><i class = "fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class = "container">
+        <div class = "row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class ="fas fa-paper-plane"></i> abdulgani.muhammedsani@gmail.com</p>
+                <div class="social-icons">
+                    <a href ="https://www.linkedin.com/in/abdulgani-muhammedsani-007262203/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Abdulgani Muhammedsani Resume FA23.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type = "text" name = "Name" placeholder = "Your Name" required>
+                    <input type = "email" name = "email" placeholder = "Your Email" required>
+                    <textarea name = "Message" rows = "6" placeholder = "Your Message"></textarea>
+                    <button type = "Submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+
+
+</html> 
