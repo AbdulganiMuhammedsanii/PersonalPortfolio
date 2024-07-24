@@ -299,7 +299,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/MobileBackground.png)
+        background-image: url(images/newhomepic.png)
     }
     .header-text{
         margin-top: 100%;
