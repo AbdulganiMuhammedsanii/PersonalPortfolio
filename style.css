@@ -81,13 +81,13 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-    color: #cc5500;
+    color: #B22222;
 }
 
 /*--------about--------- */
 #about {
     padding: 80px 0;
-    color: #cc5500;
+    color: #586759;
 }
 
 .row {
@@ -112,7 +112,7 @@ nav ul li a:hover::after {
 .sub-title {
     font-size: 60px;
     font-weight: 600;
-    color: #cc5500;
+    color: #B22222;
 }
 
 .tab-titles {
@@ -132,7 +132,7 @@ nav ul li a:hover::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #cc5500;
+    background: #B22222;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -149,7 +149,7 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul li span {
-    color: #cc5500;
+    color: #B22222;
     font-size: 18px;
 }
 
@@ -177,14 +177,14 @@ nav ul li a:hover::after {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    color: #cc5500;
+    color: #586759;
 }
 
 .work1 {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    color: #cc5500;
+    color: #586759;
 }
 
 .work1 img {
@@ -206,7 +206,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0, 0, 0.6), #cc5500);
+    background: linear-gradient(rgba(0, 0, 0.6), #B22222);
     border-radius: 10px;
     position: absolute;
     opacity: 0.70;
@@ -268,7 +268,7 @@ nav ul li a:hover::after {
 
 /*--------Contact---------- */
 .row {
-    color: #cc5500;
+    color: #B22222;
 }
 
 .contact-left {
@@ -284,7 +284,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-    color: #cc5500;
+    color: #586759;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -303,7 +303,7 @@ nav ul li a:hover::after {
 }
 
 .social-icons a:hover {
-    color: #cc5500;
+    color: #B22222;
     transform: translateY(-5px);
 }
 
@@ -311,14 +311,14 @@ nav ul li a:hover::after {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #cc5500;
+    border: 1px solid #B22222;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
 }
 
 .btn:hover {
-    background: #cc5500;
+    background: #B22222;
 }
 
 .btn.btn2 {
@@ -334,7 +334,7 @@ form textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background: #cc5500;
+    background: #B22222;
     padding: 15px;
     margin: 15px 0;
     color: #fff;
@@ -374,7 +374,7 @@ nav .fas {
     }
 
     nav ul {
-        background: #cc5500;
+        background: #B22222;
         position: fixed;
         opacity: 0.9;
         top: 0;
@@ -426,7 +426,7 @@ nav .fas {
 }
 
 #span {
-    color: #cc5500;
+    color: #B22222;
     margin-top: -10px;
     display: block;
 }
